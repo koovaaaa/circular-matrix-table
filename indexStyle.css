@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container{
+    margin: 25px;
+}
+
+.divLeft{
+    float: left;
+    margin-right: 60px;
+}
+
+#brKolona, #brRedova{
+    width: 43%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+}
+
+#kolone{
+    float:right;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.table2, .td2{
+    border: 1px solid black;
+    text-align: center; 
+    border-collapse: collapse;
+    padding: 30px;
+}
+
+#tr2:nth-child(odd){
+    background-color: tomato;
+}
+
+#tr2:nth-child(even){
+    background-color: dimgray;
+}
+
+p{
+	font-weight: bold;
+	font-style: em;
+	font-size: 26;
+	background-color: tomato;
+}
+
+table, td{
+	font-weight: bold;
+}
+
+#brKolona{
+	font-weight: bold;
+	background-color: dimgray;
+}
+
+#brRedova{
+	font-weight: bold;
+	background-color: tomato;
+}
+
+
+
+
